@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.images img{
+    height: 350px;
+    width: 234px;
+    margin-left: 35px;
+}
+
+.images{
+    border: 1px solid white;
+    width: 300px;
+}
+
+.images .title p{
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+body{
+    background-color: black;
+}
+
+.price p{
+    text-align: end;
+    color: white;
+    padding-right: 20px;
+}
+
+.images button{
+    height: 55px;
+    width: 155px;
+    background-color: red;
+    margin-left: 65px;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+button i{
+    padding-right: 15px;
+}
